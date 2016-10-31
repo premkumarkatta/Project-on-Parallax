@@ -1,0 +1,392 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  background-size:50%;
+  background-color:black;
+}
+
+
+.titre{
+	opacity:0.3;
+  background:url(titre1y.jpg) 0 no-repeat;
+  background-color:#fec56d;
+  background-position:center;
+  background-size:auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  transition:all 0.5s ease-in;
+}
+.titre:hover{
+	opacity:1;
+	transition:all 0.5s ease-in;
+  background:url(titre.jpg) 0 no-repeat;
+  background-color:#fec56d;
+  background-position:center;
+  background-size:auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color: grey;
+    position: fixed;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     font-size: 20px;
+    font-family:Impact;
+  text-decoration: none;
+}
+
+img{
+  border: 0;
+}
+
+nav {
+  position:fixed;
+  font-size: 30px;  
+  font-family: verdana;
+  text-shadow: 2px 7px 5px black;
+  height:50px;
+  width:100%;
+  background-color:rgba(0,0,0,0);
+  z-index:99;
+
+}
+nav a{
+  text-decoration:none;
+
+  color:#fff;
+  margin-right:130px;
+  line-height:50px;
+  
+}
+.view-18{
+	opacity:0.1;
+	transition:all 0.5s ease-in;
+ background-image: url(fond18.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-18{
+	opacity:0.1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo18.png);
+  background-position: 200px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+.view-18:hover{
+opacity:1;
+	transition:all 0.5s ease-in;
+ background-image: url(fond18.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+.image-18:hover{
+opacity:1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo18.png);
+  background-position: 200px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+.view-three{
+	
+  background-image: url(fond3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+  height: 100%;
+
+}
+
+
+.image-3{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo3.png);
+  background-position: 390px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+
+.view-four{
+	opacity:0.1;
+	transition:all 0.5s ease-in;
+  background-image: url(fond4.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+.view-four:hover{
+	opacity:1;
+	transition:all 0.5s ease-in;
+  background-image: url(fond4.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+	
+.image-4{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo4.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.image-4:hover{
+	opacity:1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo4.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-five{
+  background-image: url(fond5.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-5{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo5.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+}
+
+
+.view-six{
+	opacity:0.1;
+	transition:all 0.5s ease-in;
+  background-image: url(fond6.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-6{
+opacity:0.1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo6.png);
+  background-position: 410px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+
+  .view-six:hover{
+  	opacity:1;
+	transition:all 0.5s ease-in;
+  background-image: url(fond6.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-6:hover{
+	opacity:1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo6.png);
+  background-position: 410px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+
+.view-seven{
+
+  background-image: url(fond7.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+.image-7{
+	  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo7.png);
+  background-position: 290px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+ 
+
+.view-eight{
+		opacity:0.1;
+	transition:all 0.5s ease-in;
+ background-image: url(fond8.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+.image-8{
+		opacity:0.1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo8.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+  .view-eight:hover	{
+  		opacity:1;
+	transition:all 0.5s ease-in;
+ background-image: url(fond8.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+.image-8:hover{
+opacity:1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo8.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+.view-nine{
+  background-image: url(fond9.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-9{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo9.png);
+  background-position: 330px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+
+.view-ten{
+	opacity:0.1;
+	transition:all 0.5s ease-in;
+  background-image: url(fond10.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-10{
+opacity:0.1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo10.png);
+  background-position: 400px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+
+.view-ten:hover{
+	opacity:1;
+	transition:all 0.5s ease-in;
+  background-image: url(fond10.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-10:hover{
+opacity:1;
+	transition:all 0.5s ease-in;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo10.png);
+  background-position: 400px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }

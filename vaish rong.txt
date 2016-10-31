@@ -1,0 +1,177 @@
+    #include <iostream>
+    using namespace std;
+    double division(int a, int b)
+    {
+        if (b == 0)
+        {
+            throw "Division by zero condition!";
+        }
+        return (a / b);
+    }
+    int main ()
+    {
+        int x = 50;
+        int y = 0;
+        double z = 0;
+        try 
+        {
+            z = division(x, y);
+            cout << z << endl;
+        }
+        catch (const char* msg) 
+        {
+            cerr << msg << endl;
+        }
+        return 0;
+    }
+a) 50
+b) 0
+c) Division by zero condition!
+d) error
+View Answer
+
+Answer:c
+Explanation:It’s a mathematical certainty, We can’t divide by zero, So we’re arising a exception.
+Output:
+$ g++ excep.cpp
+$ a.out
+Division by zero condition!
+
+
+
+5. What is the output of this program?
+
+    #include <iostream>
+    using namespace std;
+    int main () 
+    {
+        try
+        {
+            throw 20;
+        }
+        catch (int e)
+        {
+            cout << "An exception occurred " << e << endl;
+        }
+        return 0;
+    }
+advertisements
+
+a) 20
+b) An exception occurred
+c) error
+d) An exception occurred 20
+View Answer
+Answer:d
+Explanation:We are handling the exception by throwing that number. So the output is printed with the given number.
+Output:
+$ g++ excep1.cpp
+$ a.out
+An exception occurred 20
+
+
+    #include <iostream>
+    #include <exception>
+    using namespace std;
+    class myexception: public exception
+    {
+        virtual const char* what() const throw()
+        {
+            return "My exception";
+        }
+    } myex;
+    int main () 
+    {
+        try
+        {
+            throw myex;
+        }
+        catch (exception& e)
+        {
+            cout << e.what() << endl;
+        }
+        return 0;
+    }
+a) exception
+b) error
+c) My exception
+d) runtime error
+View Answer
+
+Answer:c
+Explanation:This is a standard exception handler used in the class.
+Output:
+$ g++ excep2.cpp
+$ a.out
+My exception
+
+    #include <iostream>
+    #include <exception>
+    using namespace std;
+    int main () 
+    {
+        try
+        {
+            int* myarray = new int[1000];
+            cout << "allocated";
+        }
+        catch (exception& e)
+        {
+            cout << "Standard exception: " << e.what() << endl;
+        }
+        return 0;
+    }
+a) allocated
+b) Standard exception
+c) Depends on the memory
+d) error
+View Answer
+
+Answer:c
+Explanation:In this program, We are allocating the memory for array. If it is allocated means, no exception will arise and if there is no size in memory means, Exception will arise.
+Output:
+$ g++ excep3.cpp
+$ a.out
+allocated
+
+
+
+    #include <iostream>
+    #include <exception>
+    using namespace std;
+    struct MyException : public exception
+    {
+        const char * what () const throw ()
+        {
+            return "C++ Exception";
+        }
+    };
+    int main()
+    {
+        try
+        {
+            throw MyException();
+        }
+        catch(MyException& e)
+        {
+            cout << "Exception caught" << std::endl;
+            cout << e.what() << std::endl;
+        }
+        catch(std::exception& e)
+        {
+        }    
+    }
+a) C++ Exception
+b) Exception caught
+c) Exception caught
+C++ Exception
+d) error
+View Answer
+
+Answer:c
+Explanation:We are defining the user-defined exception in this program.
+Output:
+$ g++ excep4.cpp
+$ a.out
+C++ Exception
+Exception caught

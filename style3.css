@@ -1,0 +1,460 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height:100%;
+
+}
+
+nav {
+  position:fixed;
+  font-size: 30px;  
+  font-family: verdana;
+  text-shadow: 2px 7px 5px black;
+  height:50px;
+  width:100%;
+  background-color:rgba(0,0,0,0);
+  z-index:99;
+
+}
+nav a{
+  text-decoration:none;
+
+  color:#fff;
+  margin-right:130px;
+  line-height:50px;
+  
+}
+.one{
+   background-image: url(one.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size:1350px 750px;
+  height: 100%;
+}
+
+  
+
+
+.two{
+  background-image: url(yourphoneawayfromphone.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+
+}
+
+.three{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(3c.jpg);
+  background-size:1350px 750px;
+  background-repeat: no-repeat;
+  
+
+  }
+
+ 
+
+.four{
+  background-image: url(CallsFordward3.jpg);
+  background-repeat: no-repeat;
+ 
+  background-size:cover;
+  height: 100%;
+}
+
+.five{
+ background-image: url(MOMcalling.gif);
+  background-repeat: no-repeat;
+   background-attachment: fixed; 
+  background-size:cover;
+  height: 100%;
+
+  }
+
+
+.six{
+ background-image: url(ts.jpg);
+  background-repeat: no-repeat;
+    background-size:cover;
+  height: 100%;
+
+  }
+
+
+.seven{
+ background-image: url(hnd.jpg);
+  background-repeat: no-repeat;
+   background-attachment: fixed; 
+  background-size:cover;
+  height: 100%;
+
+  }
+.eight{
+ background:url(lightphonee.gif) 0 no-repeat;
+  background-color:rgb(198,197,193);
+  background-position:center;
+  background-size:auto;
+    background-attachment: fixed; 
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: rgb(198,197,193);
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.nine{
+
+  background-color:rgb(198,197,193);
+  background-position:center;
+  background-size:auto;
+  position: relative;
+    background-attachment: fixed; 
+  height: 100%;
+  width: 100%;
+  color: rgb(198,197,193);
+  margin: 0 auto;
+  padding: 0;
+
+  }
+
+.ten{
+
+  background-color:rgb(198,197,193);
+  background-position:center;
+  background-size:auto;
+    background-attachment: fixed; 
+  position: relative;
+  height: 2000px;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+}
+
+p {
+    background-color:rgb(198,197,193);
+    color:white;
+    text-align: center;
+    font-size:30px;
+    font-family:Tw Cen MT;
+}
+
+
+table {
+    border:0;
+    margin-left: 200px;
+    border-spacing: 222px 633px;
+    border-collapse: collapse;
+    background-color:rgb(198,197,193);
+}
+
+
+.eleven{
+background:url(founders.jpg) 0 no-repeat;
+  background-color:#737373;
+  background-position:center;
+  background-size:cover;
+    background-attachment: fixed; 
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+.twelve{
+  background-color:#737373;
+  background-position:center;
+  background-size:cover;
+    background-attachment: fixed; 
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+    
+    font-size:55px;
+    font-family:Tw Cen MT;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.{
+  background-image: url(fond5.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-5{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo5.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-six{
+  background-image: url(fond6.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-6{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo6.png);
+  background-position: 410px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-seven{
+  background-image: url(fond7.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+.image-7{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo7.png);
+  background-position: 290px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-eight{
+ background-image: url(fond8.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+.image-8{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo8.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-nine{
+  background-image: url(fond9.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-9{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo9.png);
+  background-position: 330px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-ten{
+  background-image: url(fond10.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-10{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo10.png);
+  background-position: 400px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-eleven{
+  background-image: url(fond11.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-11{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo11.png);
+  background-position: 380px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-twelve{
+ background-image: url(fond12.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-12{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo12.png);
+  background-position: 370px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-13{
+  background-image: url(fond13.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-13{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo13.png);
+  background-position: 420px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-14{
+  background-image: url(fond14.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-14{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo14.png);
+  background-position: 420px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-15{
+ background-image: url(fond15.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-15{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo15.png);
+  background-position: 370px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-16{
+  background-image: url(fond16.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-16{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo16.png);
+  background-position: 340px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+.view-17{
+ background-image: url(fond17.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-17{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo17.png);
+  background-position: 450px 260px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }
+
+
+.view-18{
+ background-image: url(fond18.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+
+.image-18{
+
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed; 
+  background-image: url(velo18.png);
+  background-position: 200px 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  }

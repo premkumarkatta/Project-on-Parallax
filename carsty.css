@@ -1,0 +1,160 @@
+	* {
+   margin:0;
+   
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color: grey;
+    position: fixed;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     font-size: 20px;
+    font-family:Impact;
+ 	text-decoration: none;
+}
+
+h1{
+  
+  font-size: 39px;  
+  font-family: impact;
+  height:50px;
+  width:30%;
+  margin-top:10%;
+  margin-left:19%;
+  color: indianred;
+  text-shadow: 1px 1px 3px black;
+
+}
+
+h2{
+  
+  font-size: 25px;  
+  font-family: OCR a;
+  height:50px;
+  width:40%;
+  margin-left:19%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+	
+.icon-bar {
+    width: 90px;
+    text-align: center;
+    margin-top:9%;
+    width:10%;
+ 
+    position: fixed;
+}
+
+.icon-bar a {
+    padding: 6px;
+    display: block;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 26px;
+    font-family:Impact;
+ 	text-decoration: none;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+    color:indianred;
+}
+
+
+.sect{
+
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	overflow:hidden;
+}
+
+
+.sectone{
+	background-image:url("por.jpg");
+}
+
+.sectTwo{
+	background-image:url("1930.jpg");
+}
+
+.sectThree{
+	background-image:url("1940.jpg ");
+}
+
+.sectFour{
+	background-image:url("1950.jpg");
+}
+
+.sectFive{
+	background-image:url("1960.jpg");
+}
+
+.sectSix{
+	background-image:url("1970.jpg ");
+}
+
+.sectSeven{
+	background-image:url("1980.jpg ");
+}
+
+.sectEight{
+	background-image:url("2010.jpg");
+}
+
+.sectNine{
+	background-image:url("2000.jpg");
+}
+
+.sectTen{
+	background-image:url("1990.jpg ");
+}
+
+.sectEleven{
+	background-image:url("2020.jpg ");
+}
+
+
+.footer{
+
+	height:100%;
+	background-color:grey;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	overflow:hidden;
+}
+
+h3{
+  
+  font-size: 25px;  
+  font-family: OCR a;
+  height:50px;
+  width:80%;
+  margin-left:19%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
